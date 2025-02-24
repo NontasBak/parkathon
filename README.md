@@ -2,6 +2,15 @@
 
 Parkathon is a web application designed to help users find parking spots efficiently. Using user feedback and machine learning, it provides probabilistic predictions for parking availability, making it the perfect parking companion.
 
+## Known Issues
+
+- **Browsers**
+
+  - Some browsers like Chrome or Brave restrict geolocation because we have self-signed SSL certificate! (Alternatives like Microsoft Edge or Firefox work for geolocation).
+  - Some browsers like Firefox do not support Voice Recognition (Alternatives are Chromium based browsers).
+  
+TL;DR We recommend testing the application on Microsoft Edge.
+
 ## Features
 
 - **Real-time Availability**
